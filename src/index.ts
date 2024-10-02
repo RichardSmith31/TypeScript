@@ -70,14 +70,3 @@ const eliminarEstudiantePorEdad = (edad: number) => {
     estudiantes = estudiantes.filter(estudiante => estudiante.age !== edad);
 };
 
-agregarEstudiante({
-    fistName: "Julian",
-    lastName: "Ospina",
-    age: 18
-});
-
-eliminarEstudiantePorEdad(18);
-
-console.log(estudiantes);
-
-
